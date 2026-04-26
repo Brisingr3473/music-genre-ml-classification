@@ -1,31 +1,22 @@
-# music-genre-ml-classification
-Machine Learning Project centered on predicting genre of music based on audio clips.
-Acknowledgements: Worked with two group members Colton Benson and Finn Rowles in Machine Learning class at Grinnell College under Professor Ryan Miller.
+# ML_Music_Genre
+Repository for Machine Learning Project centered on predicting genre of music based on audio clips. 
 
-# Music Genre Classification Using Machine Learning
+Music files are from the GTZAN dataset and are not stored in repository due to Github size limitations of uploads. 
 
-## Overview
-This project compares machine learning methods for classifying songs into genres using audio features.
+https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/code?datasetId=568973&sortBy=voteCount
 
-## Research Question
-Which machine learning methods are most effective at predicting music genre labels?
+Majority of code is ran using only the genres of pop, hiphop, and rock. 
 
-## Models Tested
-- Logistic Regression
-- Random Forest
-- SVM
-- Neural Networks
+### Folders
 
-## Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- Cross-validation performance
+Data Folder has all dataframes (as csv files) used for various aspects of project.
 
-## Tools Used
-Python, scikit-learn, pandas
+Deep Learning Folder has all files used for various deep learning tasks, including pretrained model testing and various uses of InceptionTime and RocketClassifier. 
 
-## Repository Contents
-- notebooks/
-- results/
-- paper.pdf
+Feature Engineering Folder has all files used for feature creation and model training/testing. 
+
+Data Creation folder has all files specific to creating dataframes that were used for Deep Learning and Feature Engineering.  
+
+### Acknowledgements
+
+Some code and ideas came from class lab examples and lab/homework submitted code. 
